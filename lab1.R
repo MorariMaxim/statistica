@@ -72,9 +72,11 @@ ex6=function(p, n)
 
 ex9 = function(n,p){
   g = dgeom(0:(n-1),p); 
+  print(g);
   barplot(g,main="Geomteric distribution", space=0)
 }
 ex10 = function(n,l){
   p=dpois(0:(n-1),l)
+  print(p);
   barplot(p,main="Poisson distribution", space=0)
 }
